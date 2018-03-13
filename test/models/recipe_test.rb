@@ -35,6 +35,4 @@ class RecipeTest < ActiveSupport::TestCase
     @recipe.chef_id = nil
     assert_not @recipe.valid?
   end
-
-
 end

@@ -4,7 +4,7 @@ $navbar-default-bg: #073B15;
 @import "bootstrap";
 
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 .jumbotron {
@@ -44,12 +44,16 @@ $navbar-default-bg: #073B15;
 }
 
 .btn-xlarge {
-  background-color: #073B15
+  background-color: #073B15;
 }
 
 .btn-xlarge:hover {
   color: #fff;
   text-decoration: none;
+}
+
+body {
+  height: 100%;
 }
 
 footer {
@@ -60,6 +64,7 @@ footer {
   padding-left: 10px;
   padding-right: 10px;
 }
+
 
 footer a {
   color: #555;
@@ -99,7 +104,7 @@ footer ul li {
   color: #073B15;
 }
 
-.recipe-action {
+.recipe-actions {
   padding-top: 5px;
   a {
     color: #fff;
@@ -108,7 +113,7 @@ footer ul li {
 
 .listing {
   list-style: none;
-  padding-left: 0
+  padding-left: 0;
 }
 
 .chef-title {
@@ -119,4 +124,50 @@ footer ul li {
 
 .input_checkbox input {
   width: auto !important;
+}
+
+.center-block {
+  float: none;
+}
+
+.chat-container {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 150px;
+  width: 80;
+}
+
+.message-container {
+  .form-control {
+    float: left;
+    width: 80%;
+  }
+  .btn {
+    float: right;
+    position: relative;
+    height: 54px !important;
+    width: 18%;
+  }
+}
+
+.message {
+  padding-left: 5px;
+  padding-top: 10px;
+}
+
+.messages {
+  border: 1px solid #eaeaea;
+  height: 16em;
+  position: relative;
+  overflow: auto;
+}
+
+.liking {
+  padding-right: 10px;
+}
+
+.small-image {
+  max-width: 25px;
+  height: auto;
 }
